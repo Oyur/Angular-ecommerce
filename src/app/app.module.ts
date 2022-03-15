@@ -11,6 +11,13 @@ import { FrontendLayoutComponent } from './layouts/frontend-layout/frontend-layo
 import { HeaderFrontendComponent } from './shared/frontend/header-frontend/header-frontend.component';
 import { CreateComponent } from './pages/frontend/create/create.component';
 import { ViewComponent } from './pages/frontend/view/view.component';
+import { AboutComponent } from './pages/frontend/about/about.component';
+import { ContactComponent } from './pages/frontend/contact/contact.component';
+import { RegisterComponent } from './pages/frontend/register/register.component';
+import { LoginComponent } from './pages/frontend/login/login.component';
+import { ForgotpassComponent } from './pages/frontend/forgotpass/forgotpass.component';
+import { StockComponent } from './pages/backend/stock/stock.component';
+import { BackendLayoutComponent } from './layouts/backend-layout/backend-layout/backend-layout.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +26,14 @@ import { ViewComponent } from './pages/frontend/view/view.component';
     FrontendLayoutComponent,
     HeaderFrontendComponent,
     CreateComponent,
-    ViewComponent
+    ViewComponent,
+    AboutComponent,
+    ContactComponent,
+    RegisterComponent,
+    LoginComponent,
+    ForgotpassComponent,
+    StockComponent,
+    BackendLayoutComponent
   ],
   imports: [
     BrowserModule,
